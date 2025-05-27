@@ -3,28 +3,9 @@ html{
     scroll-behavior: smooth;
     
 }
-.pt-serif-regular {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
 
-.pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-serif-regular-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: italic;
 }
 
 .main01{
