@@ -408,12 +408,12 @@ menu.shrink nav a {
 }
 .copyright{
     width:100%;
-   
     display:flex;
     justify-content: space-around;
     bottom:20px;
     align-items: center;
     font-size:12px;
+    border-top:1px solid #333;
 }
 .copyright ul{
     display:flex;
@@ -429,7 +429,17 @@ menu.shrink nav a {
 }
 
 /*----------------media----------------------*/
-
+@media (max-width: 1300px) {
+  .b_txt01{
+    width:50%;
+  }
+  .b_txt01 h1{
+    font-size:46px;
+  }
+  .b_txt02 h2{
+    font-size:46px;
+  }
+}
 
 /* 1199px 이하: 태블릿 가로 */
 @media (max-width: 1199px) {
@@ -622,7 +632,6 @@ menu.shrink nav a {
   .copyright{
     justify-content: center;
     align-items: center;
-    border-top:1px solid #484848;
   }
 }
 
