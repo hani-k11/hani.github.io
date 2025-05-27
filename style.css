@@ -502,21 +502,199 @@ menu.shrink nav a {
 
 /* 767px 이하: 스마트폰 */
 @media (max-width: 767px) {
-  .nav {
+  nav a{
+    font-size:16px;
+  }
+  #start{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .b_box{
+    flex-direction: column;
+    flex:0 0 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .b_txt01{
+    width:100%;
+  }
+  .b_txt01 h1{
+    font-size:30px;
+  }
+  .b_txt02{
+    width:100%;
+  }
+  .b_txt02 h2{
+    font-size:30px;
+  }
+  .line{
+    height:230px;
+  }
+  .about_box h3{
+    font-size:38px;
+  }
+  #about{
+    padding:0;
+  }
+  .about_inner{
+    margin-bottom:0;
+  }
+  .about_img{
+    width:48%;
+  }
+  .about_txt{
+    text-align:center;
+    margin:3vw 0;
+  }
+  .about_txt h3{
+    font-size:18px;
+  }
+  .about_txt p{
+    font-size:12px;
+  }
+  .history{
     flex-direction: column;
   }
-  .hero-title {
-    font-size: 2rem;
+  .h_box{
+    flex-direction: column;
     text-align: center;
+  }
+  .work{
+    width:100%;
+  }
+  .work h3{
+    font-size:18px;
+  }
+  .work li{
+    font-size:12px;
+  }
+  .h_box02{
+    width:100%;
+  }
+  .h_box02 h3{
+    font-size:18px;
+  }
+  .h_box02 li{
+    font-size:12px;
+  }
+  .slide_view{
+    margin:5vw 0;
+  }
+  #slider{
+    height:3rem;
+  }
+  #work h3{
+    font-size:20px;
+    margin-bottom:2rem;
+  }
+  .product_txt h4{
+    font-size:18px;
+  }
+  .product_txt p{
+    font-size:14px;
+  }
+  .product_con li{
+    margin-bottom:1rem;
+  }
+  .product_con li{
+    font-size:20px;
+  }
+  #contact{
+    height:60vh;
+  }
+  .contact_txt_01{
+    font-size:1.5rem;
+  }
+  .letter{
+    font-size:6vw;
+  }
+  .contact_txt_03 p{
+    font-size:14px;
+  }
+  .arrow{
+    font-size:12px;
+  }
+  .arrow i{
+    right:-1rem;
+    top:0;
+  }
+  .copyright{
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid #484848;
   }
 }
 
-/* 479px 이하: 소형 스마트폰 */
 @media (max-width: 479px) {
-  .hero-title {
-    font-size: 1.5rem;
+  .b_txt01 h1{
+    font-size:28px;
   }
-  .section {
-    padding: 40px 10px;
+  .b_txt02 h2{
+    font-size:28px;
+  }
+  .about_box h3{
+    font-size:30px;
+  }
+  .about_box{
+    height:230px;
+  }
+  .about_img{
+    width:62%;
+  }
+  .about_txt{
+    border-bottom:1px solid #d2d2d2;
+    padding-bottom:20px;
+  }
+  .about_txt h3{
+    font-size:16px;
+  }
+  .about_txt p{
+    letter-spacing: -1.2px;
+    line-height: 1.7;
+  }
+  .work h3{
+    font-size:16px;
+  }
+  .h_box02 h3{
+    font-size:16px;
+  }
+  .h_box02 li{
+    font-size:10px;
+  }
+  #slider{
+    height:2rem;
+  }
+  #work h3{
+    font-size:18px;
+    margin-bottom:1rem;
+  }
+  .product_txt{
+    margin-top:1rem;
+    margin-left:0;
+  }
+  .product_txt h4{
+    font-size:16px;
+  }
+  .product_txt p{
+    font-size:12px;
+  }
+  #contact{
+    height:50vh;
+  }
+  .contact_inner{
+    padding:0 20px;
+  }
+  .contact_txt_01{
+    font-size:1rem;
+  }
+  .letter{
+    font-size:5vw;
+  }
+  .contact_txt_03 p{
+    font-size:12px;
+  }
+  .copyright{
+    font-size:10px;
   }
 }
