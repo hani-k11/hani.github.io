@@ -1,13 +1,14 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 .main01{
     /*width:1200px;*/
     min-height:100vh;
     position:relative;
     margin:0 auto;
+    width:100%;
 
 }
 menu {
@@ -95,7 +96,13 @@ menu.shrink nav a {
     flex-wrap: nowrap;
     justify-content: end;
     height:min-content;
-    width:auto;
+    width:100%;
+    position:relative;
+    box-sizing: border-box; 
+}
+.b_txt01, .b_txt02 {
+  position: relative;
+  overflow: hidden;
 }
 .b_txt01{
     display:flex;
@@ -419,4 +426,97 @@ menu.shrink nav a {
 .copyright ul li a{
     color:#fff;
     text-decoration: none;
+}
+
+/*----------------media----------------------*/
+
+
+/* 1199px 이하: 태블릿 가로 */
+@media (max-width: 1199px) {
+  #about{
+    padding: 60px 20px;
+  }
+  .b_box{
+    justify-content: space-between;
+  }
+  .b_txt01 h1{
+    font-size:39px;
+  }
+  .b_txt02 h2{
+    font-size:39px;
+  }
+  .about_box01{
+    margin:3rem auto;
+  }
+  .about_box h3{
+    font-size:40px;
+  }
+  .about_img{
+    width:32%;
+  }
+  .history{
+    margin-bottom:0;
+  }
+
+}
+
+/* 1000px 이하: 태블릿 세로 */
+@media (max-width: 1000px) {
+    #about{
+        padding:5vw 8vw;
+    }
+  .about_box01{
+    margin:0;
+  }
+  .about_inner{
+    flex-direction: column;
+  }
+  .about_img{
+    width:52%;
+    margin:0 auto;
+  }
+  .about_txt{
+    width:100%;
+    margin:0 auto;
+  }
+  .history{
+    flex-direction: column;
+  }
+  .h_box{
+    flex-direction: column;
+  }
+  #slider{
+    height:5rem;
+  }
+  .product_con li{
+    width:100%;
+    margin-bottom:3rem;
+  }
+  .letter{
+    font-size:8vw;
+  }
+  .contact_txt_03 p{
+    font-size:24px;
+  }
+}
+
+/* 767px 이하: 스마트폰 */
+@media (max-width: 767px) {
+  .nav {
+    flex-direction: column;
+  }
+  .hero-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* 479px 이하: 소형 스마트폰 */
+@media (max-width: 479px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .section {
+    padding: 40px 10px;
+  }
 }
